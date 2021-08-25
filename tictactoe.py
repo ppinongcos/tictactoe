@@ -36,7 +36,7 @@ def run():
         
     while game_on:
             
-        print('This is you reference board')
+        print('This is your reference board')
         print('\n'.join(' '.join(map(str, sl)) for sl in main))
         print('\n')
         print('This is your playing board')
